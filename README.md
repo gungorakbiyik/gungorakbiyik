@@ -37,3 +37,5 @@ wagering engines, coupon/settlement pipelines, and kiosk fleet management at nat
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-gungor--akbiyik-blue?style=flat&logo=linkedin)](https://linkedin.com/in/gungor-akbiyik)
 [![Email](https://img.shields.io/badge/Email-gungor.akbiyik@gmail.com-red?style=flat&logo=gmail)](mailto:gungor.akbiyik@gmail.com)
+
+![Visitor Count](https://komarev.com/ghpvc/?username=gungorakbiyik&color=blue&style=flat)
