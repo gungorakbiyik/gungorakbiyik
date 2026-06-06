@@ -3,8 +3,9 @@
 **Senior / Principal Java Engineer** — Distributed Systems & Real-Time Platforms
 
 I design and build high-throughput, fault-tolerant backend systems with 19+ years of experience.
-Most of my career has been in the **Sportsbook and real-time betting domain** — live odds feeds,
-wagering engines, coupon/settlement pipelines, and kiosk fleet management at national scale.
+Most of my career has been spent on **high-volume transactional and real-time event-driven
+platforms** — real-time data feeds, high-concurrency transaction engines, settlement &
+reconciliation pipelines, and nationwide distributed device-fleet management.
 
 ---
 
@@ -19,14 +20,36 @@ wagering engines, coupon/settlement pipelines, and kiosk fleet management at nat
 ![Prometheus](https://img.shields.io/badge/Prometheus-Grafana-orange?style=flat&logo=prometheus)
 ![Keycloak](https://img.shields.io/badge/Keycloak-OAuth2-blue?style=flat&logo=keycloak)
 
-**Architecture:** Microservices · Clean Architecture · Hexagonal Architecture · Event-Driven
+**Architecture:** Microservices · Clean Architecture · Hexagonal Architecture · Event-Driven · Domain-Driven Design
+
+---
+
+## 🏦 What I'm Building
+
+**[core-banking](https://github.com/gungorakbiyik/core-banking)** — a core banking domain model
+in Java / Spring, built to explore Domain-Driven Design tactical patterns (entities, value objects,
+aggregates, repositories) on a realistic banking domain. Work in progress, public from day one.
+
+---
+
+## ✍️ Writing
+
+Deep-dives on DDD, the banking domain, and Java/Spring — mirrored here from Medium:
+
+- **Domain-Driven Design — Level 1** (series)
+  - [Part 1 — Entity & Value Object](writings/ddd-level-1-part-1-entity-value-object.md)
+  - [Part 2 — Aggregate & Aggregate Root](writings/ddd-level-1-part-2-aggregate.md)
+  - [Part 3 — Repository, Domain & Application Service](writings/ddd-level-1-part-3-repository.md)
+- [**Account vs. Ledger — Foundations of Core Banking**](writings/account-vs-ledger-core-banking.md)
+
+→ More on [Medium @gungor.akbiyik](https://medium.com/@gungor.akbiyik)
 
 ---
 
 ## 📌 About Me
 
 - 🏢 19+ years building distributed, real-time Java systems
-- 🎰 Deep domain expertise in Sportsbook platforms (Sportradar/Betradar UOF integration)
+- ⚡ Domain experience in high-throughput transactional platforms — real-time feeds, settlement & reconciliation, fault tolerance under load
 - 👥 Led backend teams of up to 8 engineers
 - 📍 Istanbul, Turkey — open to **Remote / Hybrid / On-site**
 - 📚 Currently learning: Python & AI Agents
@@ -36,5 +59,5 @@ wagering engines, coupon/settlement pipelines, and kiosk fleet management at nat
 ## 📫 Contact
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-gungorakbiyik-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/gungorakbiyik/)
+[![Medium](https://img.shields.io/badge/Medium-@gungor.akbiyik-black?style=flat&logo=medium)](https://medium.com/@gungor.akbiyik)
 [![Email](https://img.shields.io/badge/Email-gungor.akbiyik@gmail.com-red?style=flat&logo=gmail)](mailto:gungor.akbiyik@gmail.com)
-
