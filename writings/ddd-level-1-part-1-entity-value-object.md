@@ -1,14 +1,5 @@
 > 📝 _Originally published on Medium: [DDD Level 1 — Bölüm 1: Entity ve Value Object](https://medium.com/@gungor.akbiyik/ddd-level-1-b%C3%B6l%C3%BCm-1-ddd-giri%C5%9F-entity-ve-value-object-db0b91d40d36)_
 
----
-type: medium-article
-status: draft
-project: opencore-bank
-series: ddd-level-1
-part: 1
-created: 2026-05-19
-tags: [ddd, tactical-patterns, entity, value-object, banking, java, spring]
----
 
 # DDD Level 1 — Bölüm 1: DDD Giriş + Entity ve Value Object
 

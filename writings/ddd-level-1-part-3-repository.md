@@ -1,16 +1,5 @@
 > 📝 _Originally published on Medium: [DDD Level 1 — Bölüm 3: Repository, Domain Service, Application Service](https://medium.com/@gungor.akbiyik/ddd-level-1-b%C3%B6l%C3%BCm-3-repository-domain-service-application-service-9088b1de844e)_
 
----
-type: medium-article
-status: published
-project: opencore-bank
-series: ddd-level-1
-part: 3
-created: 2026-05-19
-published: 2026-05-23
-url: https://medium.com/@gungor.akbiyik/ddd-level-1-b%C3%B6l%C3%BCm-3-repository-domain-service-application-service-9088b1de844e
-tags: [ddd, tactical-patterns, repository, domain-service, application-service, banking, java, spring]
----
 
 # DDD Level 1 — Bölüm 3: Repository, Domain Service, Application Service
 

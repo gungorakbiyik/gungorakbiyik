@@ -1,16 +1,5 @@
 > 📝 _Originally published on Medium: [DDD Level 1 — Bölüm 2: Aggregate ve Aggregate Root](https://medium.com/@gungor.akbiyik/ddd-level-1-b%C3%B6l%C3%BCm-2-aggregate-ve-aggregate-root-b827bca2bb9c)_
 
----
-type: medium-article
-status: published
-project: opencore-bank
-series: ddd-level-1
-part: 2
-created: 2026-05-19
-published: 2026-05-21
-url: https://medium.com/@gungor.akbiyik/ddd-level-1-b%C3%B6l%C3%BCm-2-aggregate-ve-aggregate-root-b827bca2bb9c
-tags: [ddd, tactical-patterns, aggregate, aggregate-root, banking, java, spring]
----
 
 # DDD Level 1 — Bölüm 2: Aggregate ve Aggregate Root
 

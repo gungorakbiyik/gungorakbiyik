@@ -1,14 +1,5 @@
 > 📝 _Originally published on Medium: [Account vs. Ledger — Core Banking’in Temelleri](https://medium.com/@gungor.akbiyik/account-vs-ledger-core-bankingin-temelleri-7958fa4b87b8)_
 
----
-type: medium-article
-status: published
-project: opencore-bank
-created: 2026-05-18
-published: 2026-05-18
-medium_url: https://medium.com/@gungor.akbiyik/account-vs-ledger-core-bankingin-temelleri-7958fa4b87b8
-tags: [java, spring, ddd, banking, corebanking, softwareengineering, accounting, ledger]
----
 
 # Account vs Ledger — Core Banking'in Temelleri
 
