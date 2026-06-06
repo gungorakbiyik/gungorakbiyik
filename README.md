@@ -34,15 +34,15 @@ aggregates, repositories) on a realistic banking domain. Work in progress, publi
 
 ## ✍️ Writing
 
-Deep-dives on DDD, the banking domain, and Java/Spring — mirrored here from Medium:
+Deep-dives on DDD, the banking domain, and Java/Spring — read them on my site:
 
 - **Domain-Driven Design — Level 1** (series)
-  - [Part 1 — Entity & Value Object](writings/ddd-level-1-part-1-entity-value-object.md)
-  - [Part 2 — Aggregate & Aggregate Root](writings/ddd-level-1-part-2-aggregate.md)
-  - [Part 3 — Repository, Domain & Application Service](writings/ddd-level-1-part-3-repository.md)
-- [**Account vs. Ledger — Foundations of Core Banking**](writings/account-vs-ledger-core-banking.md)
+  - [Part 1 — Entity & Value Object](https://gungorakbiyik.github.io/writings/ddd-level-1-part-1-entity-value-object)
+  - [Part 2 — Aggregate & Aggregate Root](https://gungorakbiyik.github.io/writings/ddd-level-1-part-2-aggregate)
+  - [Part 3 — Repository, Domain & Application Service](https://gungorakbiyik.github.io/writings/ddd-level-1-part-3-repository)
+- [**Account vs. Ledger — Foundations of Core Banking**](https://gungorakbiyik.github.io/writings/account-vs-ledger-core-banking)
 
-→ More on [Medium @gungor.akbiyik](https://medium.com/@gungor.akbiyik)
+→ [**gungorakbiyik.github.io**](https://gungorakbiyik.github.io/) · also on [Medium @gungor.akbiyik](https://medium.com/@gungor.akbiyik)
 
 ---
 
@@ -58,6 +58,7 @@ Deep-dives on DDD, the banking domain, and Java/Spring — mirrored here from Me
 
 ## 📫 Contact
 
+[![Website](https://img.shields.io/badge/Website-gungorakbiyik.github.io-0a0a0a?style=flat&logo=astro&logoColor=white)](https://gungorakbiyik.github.io/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-gungorakbiyik-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/gungorakbiyik/)
 [![Medium](https://img.shields.io/badge/Medium-@gungor.akbiyik-black?style=flat&logo=medium)](https://medium.com/@gungor.akbiyik)
 [![Email](https://img.shields.io/badge/Email-gungor.akbiyik@gmail.com-red?style=flat&logo=gmail)](mailto:gungor.akbiyik@gmail.com)
