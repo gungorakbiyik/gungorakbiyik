@@ -1,64 +1,65 @@
-# Hi, I'm Güngör 👋
+# Güngör Akbıyık
 
-**Senior / Principal Java Engineer** — Distributed Systems & Real-Time Platforms
+**Senior / Principal Java Engineer — 19+ years on high-throughput, real-time distributed systems.**
 
-I design and build high-throughput, fault-tolerant backend systems with 19+ years of experience.
-Most of my career has been spent on **high-volume transactional and real-time event-driven
-platforms** — real-time data feeds, high-concurrency transaction engines, settlement &
-reconciliation pipelines, and nationwide distributed device-fleet management.
+I build backends where the hard part is staying correct under load: high-concurrency
+transaction engines, real-time data feeds, settlement and reconciliation pipelines, and
+nationwide device fleets. The numbers below are ones I was accountable for, not estimates.
 
----
+## What I've done
 
-## 🔧 Tech Stack
+- Built a transactional platform from scratch as its first engineer — **500K transactions/day**, in production within 8 months (Java, Spring Boot, PostgreSQL, Kafka).
+- Redesigned the sales path around a Redis cache and read-only replicas: **1,000 ms → 100 ms**.
+- Moved a 5,000-dealer billing run onto Kafka event fan-out: **30 minutes → 2 minutes**.
+- Stood in for missing distributed transactions across three services with sagas and compensating actions; idempotent queries and end-of-day reconciliation closed the double-spend gap.
+- Collapsed duplicated security and configuration code into a **7-module Spring Boot starter family**; led the Boot 2.6 → 3.4 migration and the multi-tenant JWT standard.
+- Designed and shipped central management and real-time monitoring for a **7,000+ device fleet**.
+- Hired and led an **8-engineer backend team** from zero — then chose to go back to building.
 
-![Java](https://img.shields.io/badge/Java-21-orange?style=flat&logo=java)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.x-brightgreen?style=flat&logo=springboot)
-![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-Event--Driven-black?style=flat&logo=apachekafka)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-blue?style=flat&logo=postgresql)
-![Redis](https://img.shields.io/badge/Redis-red?style=flat&logo=redis)
-![Docker](https://img.shields.io/badge/Docker-blue?style=flat&logo=docker)
-![Prometheus](https://img.shields.io/badge/Prometheus-Grafana-orange?style=flat&logo=prometheus)
-![Keycloak](https://img.shields.io/badge/Keycloak-OAuth2-blue?style=flat&logo=keycloak)
-
-**Architecture:** Microservices · Clean Architecture · Hexagonal Architecture · Event-Driven · Domain-Driven Design
-
----
-
-## 🏦 What I'm Building
+## Selected work
 
 **[core-banking](https://github.com/gungorakbiyik/core-banking)** — a core banking domain model
-in Java / Spring, built to explore Domain-Driven Design tactical patterns (entities, value objects,
-aggregates, repositories) on a realistic banking domain. Work in progress, public from day one.
+in Java 21 / Spring Boot 4, written to put DDD tactical patterns (value objects, entities,
+aggregates, repositories, services) on a domain where correctness actually matters. Public from
+day one, still in progress.
 
----
+**[payment-service-demo](https://github.com/gungorakbiyik/payment-service-demo)** — a runnable
+reproduction of an `@Async @EventListener` race condition: the listener reads the entity before
+the transaction commits, then the commit overwrites what it wrote. Explains why the bug looks
+intermittent, and fixes it with `@TransactionalEventListener`.
 
-## ✍️ Writing
+**[gungorakbiyik.github.io](https://github.com/gungorakbiyik/gungorakbiyik.github.io)** — my
+site, built with Astro. Where the writing lives.
 
-Deep-dives on DDD, the banking domain, and Java/Spring — read them on my site:
+## Writing
 
-- **Domain-Driven Design — Level 1** (series)
-  - [Part 1 — Entity & Value Object](https://gungorakbiyik.github.io/writings/ddd-level-1-part-1-entity-value-object)
-  - [Part 2 — Aggregate & Aggregate Root](https://gungorakbiyik.github.io/writings/ddd-level-1-part-2-aggregate)
-  - [Part 3 — Repository, Domain & Application Service](https://gungorakbiyik.github.io/writings/ddd-level-1-part-3-repository)
-- [**Account vs. Ledger — Foundations of Core Banking**](https://gungorakbiyik.github.io/writings/account-vs-ledger-core-banking)
+Deep-dives on DDD, distributed systems, and the Java/Spring problems I actually run into.
+**The articles are written in Turkish.**
 
-→ [**gungorakbiyik.github.io**](https://gungorakbiyik.github.io/) · also on [Medium @gungor.akbiyik](https://medium.com/@gungor.akbiyik)
+- Domain-Driven Design — Level 1:
+  [Entity & Value Object](https://gungorakbiyik.github.io/writings/ddd-level-1-part-1-entity-value-object) ·
+  [Aggregate & Aggregate Root](https://gungorakbiyik.github.io/writings/ddd-level-1-part-2-aggregate) ·
+  [Repository, Domain & Application Service](https://gungorakbiyik.github.io/writings/ddd-level-1-part-3-repository)
+- [Account vs. Ledger — Foundations of Core Banking](https://gungorakbiyik.github.io/writings/account-vs-ledger-core-banking)
 
----
+→ [gungorakbiyik.github.io](https://gungorakbiyik.github.io/) · also on [Medium](https://medium.com/@gungor.akbiyik)
 
-## 📌 About Me
+## Stack
 
-- 🏢 19+ years building distributed, real-time Java systems
-- ⚡ Domain experience in high-throughput transactional platforms — real-time feeds, settlement & reconciliation, fault tolerance under load
-- 👥 Led backend teams of up to 8 engineers
-- 📍 Istanbul, Turkey — open to **Remote / Hybrid / On-site**
-- 📚 Currently learning: Python & AI Agents
+**Backend** Java 8–24 · Spring Boot · Spring Security · Spring Data JPA / Hibernate · REST · WebSocket
+**Messaging** Apache Kafka · RabbitMQ
+**Data** PostgreSQL · Oracle · Redis · Elasticsearch
+**Platform** Docker · Kubernetes · Jenkins · Prometheus · Grafana · Keycloak
+**Architecture** Microservices · Event-Driven (Saga) · Clean & Hexagonal · Domain-Driven Design
 
----
+Currently learning Python and AI agents — I use AI tooling in my daily workflow rather than
+reading about it.
 
-## 📫 Contact
+## Contact
 
-[![Website](https://img.shields.io/badge/Website-gungorakbiyik.github.io-0a0a0a?style=flat&logo=astro&logoColor=white)](https://gungorakbiyik.github.io/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-gungorakbiyik-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/gungorakbiyik/)
-[![Medium](https://img.shields.io/badge/Medium-@gungor.akbiyik-black?style=flat&logo=medium)](https://medium.com/@gungor.akbiyik)
-[![Email](https://img.shields.io/badge/Email-gungor.akbiyik@gmail.com-red?style=flat&logo=gmail)](mailto:gungor.akbiyik@gmail.com)
+Istanbul, Turkey — open to remote, hybrid and on-site.
+
+[Website](https://gungorakbiyik.github.io/) ·
+[LinkedIn](https://www.linkedin.com/in/gungorakbiyik/) ·
+[Medium](https://medium.com/@gungor.akbiyik) ·
+gungor.akbiyik@gmail.com
